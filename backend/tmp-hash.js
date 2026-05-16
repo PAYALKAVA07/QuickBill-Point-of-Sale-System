@@ -1,0 +1,1 @@
+const bcrypt=require('bcryptjs'); console.log('admin:'+bcrypt.hashSync('Admin@123',10)); console.log('manager:'+bcrypt.hashSync('Manager@123',10)); console.log('cashier:'+bcrypt.hashSync('Cashier@123',10));
